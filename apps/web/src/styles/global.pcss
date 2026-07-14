@@ -1,0 +1,28 @@
+body {
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+button {
+  &:focus-visible {
+    outline: 2px solid var(--color-primary);
+    outline-offset: 2px;
+  }
+}
+
+input,
+textarea {
+  &::placeholder {
+    color: var(--color-text-muted);
+  }
+}
+
+a {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+* {
+  scrollbar-color: var(--color-border) transparent;
+}

@@ -1,6 +1,5 @@
 function App() {
-  return <h1>Работает!</h1>
-
+  return <></>
 }
 
 export default App
